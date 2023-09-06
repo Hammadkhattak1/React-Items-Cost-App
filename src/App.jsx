@@ -62,19 +62,19 @@ function App() {
             <div className='card-body'>
               <div className='row my-1'>
                 <div className='col-6 fw-bold'>Sub Total:</div>
-                <div className='col-6 text-end'>5000$</div>
+                <div className='col-6 text-end'>5000.00$</div>
               </div>
               <div className='row my-1'>
                 <div className='col-6 fw-bold'>Tax 1:</div>
-                <div className='col-6 text-end'>20$</div>
+                <div className='col-6 text-end'>20.00$</div>
               </div>
               <div className='row my-1'>
                 <div className='col-6 fw-bold'>Tax 2:</div>
-                <div className='col-6 text-end'>30$</div>
+                <div className='col-6 text-end'>30.00$</div>
               </div>
               <div className='row my-1'>
                 <div className='col-6 fw-bold'>Total:</div>
-                <div className='col-6 text-end'>5050$</div>
+                <div className='col-6 text-end'>5050.00$</div>
               </div>
             </div>
           </div>
@@ -90,31 +90,31 @@ const Items = [
   {
     id: 1,
     name: 'Item 1',
-    rate: '100',
+    rate: '100.00',
     tax_id: 1
   },
   {
     id: 2,
     name: 'Item 2',
-    rate: '100',
+    rate: '200.00',
     tax_id: 2
   },
   {
     id: 3,
     name: 'Item 3',
-    rate: '100',
+    rate: '1300.00',
     tax_id: 1
   },
   {
     id: 4,
     name: 'Item 4',
-    rate: '100',
+    rate: '400.00',
     tax_id: 3
   },
   {
     id: 5,
     name: 'Item 5',
-    rate: '100',
+    rate: '1200.00',
     tax_id: 2
   }
 ];
