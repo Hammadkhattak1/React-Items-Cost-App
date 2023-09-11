@@ -40,7 +40,7 @@ const CostCalculator = () => {
       {/* </div> */}
       <Row>
         <Col colProps={{ extraColClasses: "fw-bold" }}></Col>
-        <Col>
+        <div className="col-12 py-4">
           <CardLayout>
             <CardHeader text={"Results:"} />
             <CardBody>
@@ -86,7 +86,7 @@ const CostCalculator = () => {
 
             <CardFooter text={"Best React Ever !"} />
           </CardLayout>
-        </Col>
+        </div>
       </Row>
     </>
   );
